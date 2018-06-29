@@ -2,7 +2,8 @@
 
 pacman::p_load("purrr", "tidyverse", "llamar", "svywrangler",
                "RColorBrewer", "Hmisc", "here", 
-               "viridis", "haven", "readxl", "magrittr")
+               "viridis", "haven", "readxl", "magrittr",
+               "sf")
 
 # -- Run once at setup Create datain and data out folders
   dir.create("Dataout")
